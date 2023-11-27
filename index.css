@@ -1,0 +1,107 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+#background_img{
+    background-image: url('superover-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 1500px;
+}
+#sp_logo{
+    height: 60px;
+    width: 120px;
+    position: absolute;
+    left: 90vh;
+    top: 40px;
+}
+#india{
+    height: 400px;
+    width: 430px;
+    border-radius:20px;
+    background-color: rgb(73, 84, 167);
+     position: absolute;
+    top: 200px;
+    left: 200px; 
+}
+.ball{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+   
+}
+#boll_b{
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 130px;
+   
+}
+#text_h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.board{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+
+#australia{
+    height: 400px;
+    width: 430px;
+    border-radius:20px;
+    background-color: rgb(193, 193, 14);
+     position: absolute;
+    top: 200px;
+    left: 800px; 
+}
+/* #b1_pk, #b2_pk, #b3_pk, #b4_pk, #b5_pk, #b6_pk{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin: 10px;
+   
+} */
+#boll{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 150px;
+   
+}
+#text_h2{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.board_aus{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+#strikeButton{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 600px;
+}
+#resetButton{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 750px;
+}
