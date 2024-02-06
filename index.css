@@ -17,7 +17,7 @@
     height: 60px;
     width: 120px;
     position: absolute;
-    left: 90vh;
+    left: 60vh;
     top: 40px;
 }
 
@@ -28,7 +28,7 @@
     background-color: rgb(73, 84, 167);
      position: absolute;
     top: 200px;
-    left: 300px; 
+    left: 100px; 
 }
 .ball{
     border-radius: 50%;
@@ -67,7 +67,7 @@
     background-color: rgb(193, 193, 14);
      position: absolute;
     top: 200px;
-    left: 1200px; 
+    left: 900px; 
 }
 
 #boll{
@@ -94,7 +94,7 @@
     width: 80px;
     position: absolute;
     top: 700px;
-    left: 850px;
+    left: 550px;
     
 }
 #resetButton{
@@ -102,9 +102,20 @@
     width: 80px;
     position: absolute;
     top: 700px;
-    left: 1000px;
+    left: 800px;
     
 }
 
 
 
+@media only screen and (max-width:500px) and (min-width:200px){
+   body{
+    background-color: rgb(85, 255, 0);
+   }
+   #background_img{
+    background-image: none;
+   }
+   #sp_logo{
+    background-color: black;
+   }
+}
