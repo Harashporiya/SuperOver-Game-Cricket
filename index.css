@@ -1,14 +1,17 @@
 *{
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     
 }
 #background_img{
     background-image: url('superover-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 800px;
-    width: 1500px;
+    height: 1000px;
+    width: 2000px;
 }
 #sp_logo{
     height: 60px;
@@ -17,6 +20,7 @@
     left: 90vh;
     top: 40px;
 }
+
 #india{
     height: 400px;
     width: 430px;
@@ -24,7 +28,7 @@
     background-color: rgb(73, 84, 167);
      position: absolute;
     top: 200px;
-    left: 200px; 
+    left: 300px; 
 }
 .ball{
     border-radius: 50%;
@@ -63,16 +67,9 @@
     background-color: rgb(193, 193, 14);
      position: absolute;
     top: 200px;
-    left: 800px; 
+    left: 1200px; 
 }
-/* #b1_pk, #b2_pk, #b3_pk, #b4_pk, #b5_pk, #b6_pk{
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    background-color: white;
-    margin: 10px;
-   
-} */
+
 #boll{
     display: flex;
     justify-content: space-around;
@@ -96,43 +93,18 @@
     height: 80px;
     width: 80px;
     position: absolute;
-    bottom: 0;
-    left: 600px;
+    top: 700px;
+    left: 850px;
+    
 }
 #resetButton{
     height: 80px;
     width: 80px;
     position: absolute;
-    bottom: 0;
-    left: 750px;
-}
-@media only screen and (min-width: 200px) and (max-width:500px) {
-   #strikeButton{
-    position: absolute;
-    top: 820px;
-    left: 600px;
-   }
-   #resetButton{
-    position: absolute;
-    top: 820px;
-    left: 800px;
-   }
-   #background_img{
-    height: 900px;
-    width: 1400px;
+    top: 700px;
+    left: 1000px;
     
 }
-}
-@media only screen and (min-width: 500px) and (max-width:1980px){
-    #strikeButton{
-        position: absolute;
-        top: 700px;
-        left: 600px;
-       }
-       #resetButton{
-        position: absolute;
-        top: 700px;
-        left: 751px;
-       }
-}
+
+
 
